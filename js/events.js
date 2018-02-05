@@ -20,8 +20,8 @@ function pressIt() {
 };
 
 function submitIt() {
-  $('p').on('click', function() {
-    alert("Hey!");
+  $('form').on('submit', function() {
+    alert("Your form is going to be submitted now.");
   })
 };
 
